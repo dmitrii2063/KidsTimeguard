@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>KidsComputerTimeGuard</RootNamespace>
+    <AssemblyName>KidsComputerTimeGuard</AssemblyName>
+    <Version>1.0.1</Version>
+    <Description>Ограничение времени использования ПК ребёнком в Windows 11</Description>
+    <Product>Kids Computer Time Guard</Product>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
