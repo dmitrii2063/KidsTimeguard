@@ -1,0 +1,19 @@
+KidsComputerTimeGuard/
+├── Program.cs
+├── PowerManager.cs
+├── TimeGuardService.cs
+├── AppSettings.cs
+├── SettingsService.cs
+├── ScheduledTaskHelper.cs
+├── ParentPasswordService.cs
+├── ParentAuth.cs
+├── PasswordPromptForm.cs
+├── SetPasswordForm.cs
+├── ParentConfigForm.cs + ParentConfigForm.Designer.cs
+├── ChildModeContext.cs
+├── appsettings.json
+├── KidsComputerTimeGuard.csproj
+├── KidsComputerTimeGuard.iss          ← Inno Setup
+├── installer/RegisterChildTask.ps1
+├── build.bat
+└── README.md
